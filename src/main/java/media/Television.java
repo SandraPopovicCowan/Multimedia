@@ -40,7 +40,11 @@ public class Television {
         this.tunrOn = newTurnOn;
     }
     
-    
+    public void printAttributes() {
+        System.out.println("Your TV volume is " + this.volume);
+        System.out.println("Your TV current program is " = this.currentProgram);
+        System.out.println("You TV is now " + this.tunrOn);
+    }
      
 
      

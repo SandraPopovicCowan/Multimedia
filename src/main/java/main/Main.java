@@ -15,7 +15,15 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Television Sony = new Television();
+        
+        Sony.setVolume();
+        Sony.setCurrentProgram();
+        Sony.setTurnOn();
+        
+        Sony.printAttributes();
+        
+        Radio 
     }
     
 }
